@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(24, 5%, 18%)
+}
+
+body {
+    font-size: 16px;
+}
+
+img {
+    border-radius: 1.5rem;
+}
+
+section {
+    padding: 1rem;
+}
+
+h1 {
+    padding-bottom: 1rem;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+h2 {
+    padding-bottom: 1rem;
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 600;
+}
+
+h3 {
+    padding-bottom: 1rem;
+    color: hsl(332, 51%, 32%);
+    font-family: "Young Serif", serif;
+    font-weight: 700;
+}
+
+p {
+    padding-bottom: 1rem;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+li {
+    padding: 0.5rem;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+ol {
+    padding: 0.5rem;
+    padding-left: 1rem;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+table {
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+}
+
+td {
+    padding: 1rem;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+td strong {
+    color: hsl(14, 45%, 36%);
+}
